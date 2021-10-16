@@ -7,8 +7,8 @@ Escena principal
 	[x] Programar la cámara, para que se mueva con el mouse
 	[x] Poner escenario
 	[x] Poner cubo mascotita
-	[] IU con botones para cepillo. comida, etc - Gumi
-	[] Funcionamiento de hambre, y felicidad, etc.
+	[x] IU con botones para cepillo. comida, etc - Gumi
+	[x] Funcionamiento de hambre, y felicidad, etc.
 	[] Cambiar texturas a unas propias para no tener que dar creditos
 
 Escena PVP
