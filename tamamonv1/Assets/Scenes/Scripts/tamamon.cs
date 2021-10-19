@@ -19,6 +19,7 @@ public class tamamon : MonoBehaviour
         energia.setmax(maxEnergia);
         felicidad.setmax(maxFelicidad);
         hambre.setmax(maxHambre);
+        sol.SetActive(true);
     }
 
     public void mimir (){

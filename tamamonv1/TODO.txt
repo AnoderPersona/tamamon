@@ -12,14 +12,15 @@ Escena principal
 	[] Cambiar texturas a unas propias para no tener que dar creditos
 
 Escena PVP
-	[] Colocar a los rivales
+	[x] Colocar a los rivales
 	[] Programar sistema de pelea (sumar stats por dados)
 	[] (ojala) programar vuelta a fase moco si pierde y si tiene mala suerte
 
 BUGS
 	[] A veces la cámara sale de su rango, normalmente pasa al mover el mouse saliendo de la pantalla al tener dos pantallas
+	[] Al cambiar de escena de vuelta a la principal, la luz se pone rara
 
 EXTRAS
 	[] Musiquita
 	[] Efectos especiales
-	[] Modelos
+	[x] Modelos
