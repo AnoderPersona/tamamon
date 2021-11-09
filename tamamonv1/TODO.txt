@@ -3,24 +3,28 @@ TODO
 *Si se usa material externo, poner fuente* 
 
 Escena principal
-	[] Programar la mascotita (Para que camine nomás)
-	[x] Programar la cámara, para que se mueva con el mouse
-	[x] Poner escenario
-	[x] Poner cubo mascotita
-	[x] IU con botones para cepillo. comida, etc - Gumi
-	[x] Funcionamiento de hambre, y felicidad, etc.
-	[] Cambiar texturas a unas propias para no tener que dar creditos
+	[] Programar la mascotita 
+		[] Caminar
+		[] Reaccionar cuando se peina
+		[] Reaccionar cuando come
+		[] Reaccionar cuando duerme
+	[] Agregar efectos de sonido
+	[] Agregar música
+	[] Aplicar texture mapping a todo
+	[] Chequear físicas (colisiones, gravedad, etc)
 
 Escena PVP
-	[x] Colocar a los rivales
 	[] Programar sistema de pelea (sumar stats por dados)
-	[] (ojala) programar vuelta a fase moco si pierde y si tiene mala suerte
+	[] Programar animaciones
+	[] Programar vuelta a fase moco si pierde y si tiene mala suerte
+	[] Agregar efectos de sonido
+	[] Agregar música
+	[] Aplicar texture mapping a todo
+
 
 BUGS
 	[] A veces la cámara sale de su rango, normalmente pasa al mover el mouse saliendo de la pantalla al tener dos pantallas
 	[] Al cambiar de escena de vuelta a la principal, la luz se pone rara
 
-EXTRAS
-	[] Musiquita
-	[] Efectos especiales
-	[x] Modelos
+
+
