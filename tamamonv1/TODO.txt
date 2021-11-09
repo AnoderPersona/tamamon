@@ -12,10 +12,14 @@ Escena principal
 	[] Agregar música
 	[] Aplicar texture mapping a todo
 	[] Chequear físicas (colisiones, gravedad, etc)
+        [] Sistema inventario
+                [] Inventario
+                [] Comida
+                [] Adornos
 
 Escena PVP
 	[] Programar sistema de pelea (sumar stats por dados)
-	[] Programar animaciones
+	[] Programar animaciones (Idle y pelea)
 	[] Programar vuelta a fase moco si pierde y si tiene mala suerte
 	[] Agregar efectos de sonido
 	[] Agregar música
@@ -25,6 +29,4 @@ Escena PVP
 BUGS
 	[] A veces la cámara sale de su rango, normalmente pasa al mover el mouse saliendo de la pantalla al tener dos pantallas
 	[] Al cambiar de escena de vuelta a la principal, la luz se pone rara
-
-
 
