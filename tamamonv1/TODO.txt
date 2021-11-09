@@ -16,6 +16,8 @@ Escena principal
                 [] Inventario
                 [] Comida
                 [] Adornos
+	[x] Cambiar barritas
+	[] Cambiar cámara a sólo mover con mouse haciendo click
 
 Escena PVP
 	[] Programar sistema de pelea (sumar stats por dados)
