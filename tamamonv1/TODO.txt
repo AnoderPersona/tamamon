@@ -4,7 +4,7 @@ TODO
 
 Escena principal
 	[] Programar la mascotita 
-		[] Caminar
+		[x] Caminar
 		[] Reaccionar cuando se peina
 		[] Reaccionar cuando come
 		[] Reaccionar cuando duerme
