@@ -10,8 +10,8 @@ Escena principal
 		[] Reaccionar cuando duerme
 	[] Agregar efectos de sonido
 	[] Agregar música
-	[] Aplicar texture mapping a todo
-	[] Chequear físicas (colisiones, gravedad, etc)
+	[x] Aplicar texture mapping a todo
+	[x] Chequear físicas (colisiones, gravedad, etc)
         [] Sistema inventario
                 [] Inventario
                 [] Comida

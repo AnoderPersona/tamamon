@@ -51,6 +51,7 @@
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\Scenes\Shader\PlayerShadow.shader" />
      <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
+     <None Include="Assets\Waldemarst\JapaneseGardenPackage\Textures\Credits.txt" />
      <None Include="Assets\FantasyEnvironments\Environments\README.txt" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Programitas\Unity\2020.3.20f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -643,6 +644,12 @@
     <Reference Include="Unity.2D.Animation.Runtime">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -682,17 +689,11 @@
     <Reference Include="Unity.2D.Common.Editor">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics">
-        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Sysroot.Linux_x86_64">
-        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
-        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.SysrootPackage.Editor">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
