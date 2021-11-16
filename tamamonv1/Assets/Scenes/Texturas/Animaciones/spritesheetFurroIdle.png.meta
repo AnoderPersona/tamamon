@@ -1,0 +1,768 @@
+fileFormatVersion: 2
+guid: 5cfb8c15b04a40649ba78cd3117304c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4584388766104801989
+    second: spritesheetFurroIdle_0
+  - first:
+      213: -7978785019279185114
+    second: spritesheetFurroIdle_1
+  - first:
+      213: -2454879318946638498
+    second: spritesheetFurroIdle_2
+  - first:
+      213: 3546284053089833241
+    second: spritesheetFurroIdle_3
+  - first:
+      213: -9074204759943304602
+    second: spritesheetFurroIdle_4
+  - first:
+      213: 1008616131451960752
+    second: spritesheetFurroIdle_5
+  - first:
+      213: -4103800789453159632
+    second: spritesheetFurroIdle_6
+  - first:
+      213: 5505884762831659454
+    second: spritesheetFurroIdle_7
+  - first:
+      213: -8774223766269669115
+    second: spritesheetFurroIdle_8
+  - first:
+      213: -2980789997538306266
+    second: spritesheetFurroIdle_9
+  - first:
+      213: -1301889309991323361
+    second: spritesheetFurroIdle_10
+  - first:
+      213: -4223083078410826054
+    second: spritesheetFurroIdle_11
+  - first:
+      213: -8569894793360394606
+    second: spritesheetFurroIdle_12
+  - first:
+      213: 2697560032026512713
+    second: spritesheetFurroIdle_13
+  - first:
+      213: 3108559237219979341
+    second: spritesheetFurroIdle_14
+  - first:
+      213: -8546656723234309457
+    second: spritesheetFurroIdle_15
+  - first:
+      213: -7597842875335709500
+    second: spritesheetFurroIdle_16
+  - first:
+      213: -5007110576496711556
+    second: spritesheetFurroIdle_17
+  - first:
+      213: -2237376784227901515
+    second: spritesheetFurroIdle_18
+  - first:
+      213: 3026016964857515017
+    second: spritesheetFurroIdle_19
+  - first:
+      213: -7962814901545272459
+    second: spritesheetFurroIdle_20
+  - first:
+      213: -6169599930605535036
+    second: spritesheetFurroIdle_21
+  - first:
+      213: -1222090037261901359
+    second: spritesheetFurroIdle_22
+  - first:
+      213: -769559540288065940
+    second: spritesheetFurroIdle_23
+  - first:
+      213: 3372365292781157972
+    second: spritesheetFurroIdle_24
+  - first:
+      213: -8983089812035455887
+    second: spritesheetFurroIdle_25
+  - first:
+      213: -5363770391333140206
+    second: spritesheetFurroIdle_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4052
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d2804d4baf060c0800000000000000
+      internalID: -4584388766104801989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4052
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62be7a26c49a54190800000000000000
+      internalID: -7978785019279185114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4052
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e559bb314448eedd0800000000000000
+      internalID: -2454879318946638498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_3
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4052
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9115d09ae8ee63130800000000000000
+      internalID: 3546284053089833241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_4
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4052
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66aab6819d2f11280800000000000000
+      internalID: -9074204759943304602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_5
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4052
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd3ce517035ffd00800000000000000
+      internalID: 1008616131451960752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3039
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0334da3ccee5c07c0800000000000000
+      internalID: -4103800789453159632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_7
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3039
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb121d63505d86c40800000000000000
+      internalID: 5505884762831659454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3039
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501d4bfe8f1bb3680800000000000000
+      internalID: -8774223766269669115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_9
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3039
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62711b64a4b12a6d0800000000000000
+      internalID: -2980789997538306266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_10
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3039
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19b61df192ceede0800000000000000
+      internalID: -1301889309991323361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_11
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3039
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe0c56a0589465c0800000000000000
+      internalID: -4223083078410826054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2026
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296b847371e911980800000000000000
+      internalID: -8569894793360394606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_13
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2026
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d4b3d8e88af6520800000000000000
+      internalID: 2697560032026512713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_14
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2026
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4091c90822d32b20800000000000000
+      internalID: 3108559237219979341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_15
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2026
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa3a6a0efc246980800000000000000
+      internalID: -8546656723234309457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_16
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2026
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cce164f82a0f8690800000000000000
+      internalID: -7597842875335709500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_17
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2026
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78efc0a57b238ab0800000000000000
+      internalID: -5007110576496711556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1013
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfd36b3bad33f0e0800000000000000
+      internalID: -2237376784227901515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_19
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1013
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c43a2a5629ef920800000000000000
+      internalID: 3026016964857515017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_20
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1013
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bf43d29066e7190800000000000000
+      internalID: -7962814901545272459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_21
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1013
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c08bf11d8d216aa0800000000000000
+      internalID: -6169599930605535036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_22
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1013
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1e57506934a0fe0800000000000000
+      internalID: -1222090037261901359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_23
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1013
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6eed97eca9f155f0800000000000000
+      internalID: -769559540288065940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45eb311cd5c0dce20800000000000000
+      internalID: 3372365292781157972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_25
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17432301967a55380800000000000000
+      internalID: -8983089812035455887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetFurroIdle_26
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 800
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21984df5f3f0095b0800000000000000
+      internalID: -5363770391333140206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1b74af493b386d14bb69f7996affac37
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

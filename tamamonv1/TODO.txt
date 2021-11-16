@@ -31,4 +31,5 @@ Escena PVP
 BUGS
 	[] A veces la cámara sale de su rango, normalmente pasa al mover el mouse saliendo de la pantalla al tener dos pantallas
 	[] Al cambiar de escena de vuelta a la principal, la luz se pone rara
+	[] Por alguna razon ahora el furro camina raro
 
