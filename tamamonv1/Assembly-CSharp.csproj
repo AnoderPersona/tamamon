@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scenes\Scripts\Inventario.cs" />
      <Compile Include="Assets\Scenes\Scripts\WanderAI.cs" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
+     <None Include="Assets\Scenes\Shader\PlayerShadow.shader" />
      <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
      <None Include="Assets\FantasyEnvironments\Environments\README.txt" />
     <Reference Include="UnityEngine">
@@ -618,14 +619,29 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>D:\Programitas\Unity\2020.3.20f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
@@ -635,6 +651,21 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -647,6 +678,21 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
