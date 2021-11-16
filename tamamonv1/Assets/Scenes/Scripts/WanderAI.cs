@@ -14,7 +14,6 @@ public class WanderAI : MonoBehaviour
     private bool rotandoIzq = false;
     private bool caminando = false;
 
-    public Animator animacionPlayer;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,25 +24,25 @@ public class WanderAI : MonoBehaviour
     void Update()
     {
         if (!(moviendo)){
-            animacionPlayer.SetBool("Caminando",false);
+            
             StartCoroutine(Mover());
         
         }
         
         if (rotandoDer){
-        animacionPlayer.SetBool("Caminando",true);
+        
             transform.Rotate(0,Time.deltaTime * velRot,0);
         
         }
         
         else if (rotandoIzq){
-        animacionPlayer.SetBool("Caminando",true);
+        
             transform.Rotate(0,Time.deltaTime * -velRot,0);
         
         }
         
         if (caminando){
-        animacionPlayer.SetBool("Caminando",true);
+        
             transform.Translate(Vector3.forward * Time.deltaTime * -velMov);
             
         }
@@ -53,13 +52,12 @@ public class WanderAI : MonoBehaviour
     IEnumerator Mover(){
     
         int tiempoRot = Random.Range(1, 4);
-        int esperaRot = Random.Range(1, 8);
+        int esperaRot = Random.Range(1, 10);
         int rotarIzqDer = Random.Range(1, 3);
         int esperaCamina = Random.Range(1, 3);
-        int tiempoCamina = Random.Range(1, 5);
+        int tiempoCamina = Random.Range(1, 7);
         
         moviendo = true;
-        //animacionPlayer.SetBool("Caminando",true);
         yield return new WaitForSeconds(esperaCamina);
         caminando = true;
         yield return new WaitForSeconds(tiempoCamina);
@@ -68,23 +66,19 @@ public class WanderAI : MonoBehaviour
         
         if (rotarIzqDer == 1){
         
-            rotando = true;
             rotandoDer = true;
             yield return new WaitForSeconds(tiempoRot);
-            rotando = false;
             rotandoDer = false;
         
         }
         else if (rotarIzqDer == 2){
-    
-            rotando = true;
+        
             rotandoIzq = true;
             yield return new WaitForSeconds(tiempoRot);
-            rotando = false;
             rotandoIzq = false;
         
         }
-        //animacionPlayer.SetBool("Caminando",false);
+        
         moviendo = false;
         
     

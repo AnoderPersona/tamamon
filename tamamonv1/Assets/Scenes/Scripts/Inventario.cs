@@ -234,6 +234,148 @@ public class Inventario : MonoBehaviour
         
         }
     }
+
+    public void Terremoto()
+    {
+        //funcion de salud
+        EliminarItem(0,1);
+    }
+
+    public void Empanada()
+    {
+        //funcion de salud
+        EliminarItem(1,1);
+    }
+    public void Rosca()
+    {
+        //funcion de salud
+        EliminarItem(2,1);
+    }
+    public void CalzonRoto()
+    {
+        //funcion de salud
+        EliminarItem(3,1);
+    }
+    public void Berlin()
+    {
+        //funcion de salud
+        EliminarItem(4,1);
+    }
+    public void Colegial()
+    {
+        //funcion de salud
+        EliminarItem(5,1);
+    }
+    public void Panqueque()
+    {
+        //funcion de salud
+        EliminarItem(6,1);
+    }
+    public void Frujiele()
+    {
+        //funcion de salud
+        EliminarItem(7,1);
+    }
+    public void Completo()
+    {
+        //funcion de salud
+        EliminarItem(8,1);
+    }
+    public void Sushi()
+    {
+        //funcion de salud
+        EliminarItem(9,1);
+    }
+    public void Muffin()
+    {
+        //funcion de salud
+        EliminarItem(10,1);
+    }
+    public void BebidaLata()
+    {
+        //funcion de salud
+        EliminarItem(11,1);
+    }
+    public void Hamburguesa()
+    {
+        //funcion de salud
+        EliminarItem(12,1);
+    }
+    public void PopCorn()
+    {
+        //funcion de salud
+        EliminarItem(13,1);
+    }
+    public void PapasFritas()
+    {
+        //funcion de salud
+        EliminarItem(14,1);
+    }
+    public void Macarron()
+    {
+        //funcion de salud
+        EliminarItem(15,1);
+    }
+    public void Flan()
+    {
+        //funcion de salud
+        EliminarItem(16,1);
+    }
+    public void Rosquilla()
+    {
+        //funcion de salud
+        EliminarItem(17,1);
+    }
+    
+    public void CremaBatida()
+    {
+        //funcion armadura
+        EliminarItem(18,1);
+    }
+
+    public void FelizNavidad()
+    {
+        //funcion armadura
+        EliminarItem(19,1);
+    }
+    public void MiniSombrero()
+    {
+        //funcion armadura
+        EliminarItem(20,1);
+    }
+    public void Sopaipa()
+    {
+        //funcion armadura
+        EliminarItem(21,1);
+    }    
+    public void LazoDeAmistad()
+    {
+        //funcion armadura
+        EliminarItem(22,1);
+    }
+    public void Moño()
+    {
+        //funcion armadura
+        EliminarItem(23,1);
+    }
+    public void Poncho()
+    {
+        //funcion armadura
+        EliminarItem(24,1);
+    }
+    public void CollardeSuerte()
+    {
+        //funcion armadura
+        EliminarItem(25,1);
+    }
+    public void GafasPixeleadas()
+    {
+        //funcion armadura
+        EliminarItem(26,1);
+
+    }
+    
+    
 }
 
 

@@ -13,24 +13,206 @@ MonoBehaviour:
   m_Name: BaseDatos
   m_EditorClassIdentifier: 
   baseDatos:
-  - nombre: "Poci\xF3n"
+  - nombre: Terremoto
     ID: 0
-    icono: {fileID: 21300000, guid: e52ea25af699fd445b7046374f81a5b9, type: 3}
+    icono: {fileID: 1617990200310292299, guid: 447327aaac7a1444bb952f40b91df5c2, type: 3}
     tipo: 0
     acumulable: 1
     descripcion: +15 de vida
     Void: PocionVida
-  - nombre: Manzana
+  - nombre: Empanada
     ID: 1
-    icono: {fileID: 21300000, guid: 5d9ba4e7d0964044ea54abe409d81dfd, type: 3}
+    icono: {fileID: -7409873783461179414, guid: 447327aaac7a1444bb952f40b91df5c2,
+      type: 3}
     tipo: 0
     acumulable: 0
     descripcion: +5 de HP
-    Void: Manzana
-  - nombre: Armadura
+    Void: Empanada
+  - nombre: Rosca
     ID: 2
-    icono: {fileID: 21300000, guid: 2f1eaeeaad36ee5469eff7ff158f37ba, type: 3}
+    icono: {fileID: 8673145691375328288, guid: 447327aaac7a1444bb952f40b91df5c2, type: 3}
+    tipo: 0
+    acumulable: 0
+    descripcion: +15 de vida
+    Void: Rosca
+  - nombre: Calzon Roto
+    ID: 3
+    icono: {fileID: 6919148212026094808, guid: 447327aaac7a1444bb952f40b91df5c2, type: 3}
+    tipo: 0
+    acumulable: 0
+    descripcion: +15 de vida
+    Void: CalzonRoto
+  - nombre: Berlin
+    ID: 4
+    icono: {fileID: 2869396602440740226, guid: 447327aaac7a1444bb952f40b91df5c2, type: 3}
+    tipo: 0
+    acumulable: 0
+    descripcion: +15 de vida
+    Void: Berlin
+  - nombre: Colegial
+    ID: 5
+    icono: {fileID: -6136522545984246448, guid: 447327aaac7a1444bb952f40b91df5c2,
+      type: 3}
+    tipo: 0
+    acumulable: 0
+    descripcion: +15 de vida
+    Void: Colegial
+  - nombre: Panqueque
+    ID: 6
+    icono: {fileID: -6136522545984246448, guid: 447327aaac7a1444bb952f40b91df5c2,
+      type: 3}
+    tipo: 0
+    acumulable: 0
+    descripcion: +15 de vida
+    Void: Panqueque
+  - nombre: Frujiele
+    ID: 7
+    icono: {fileID: -6136522545984246448, guid: 447327aaac7a1444bb952f40b91df5c2,
+      type: 3}
+    tipo: 0
+    acumulable: 0
+    descripcion: +15 de vida
+    Void: Frujiele
+  - nombre: Completo
+    ID: 8
+    icono: {fileID: 2361852990064787506, guid: 447327aaac7a1444bb952f40b91df5c2, type: 3}
+    tipo: 0
+    acumulable: 0
+    descripcion: +15 de vida
+    Void: Completo
+  - nombre: Sushi
+    ID: 9
+    icono: {fileID: -3215579717749292286, guid: 447327aaac7a1444bb952f40b91df5c2,
+      type: 3}
+    tipo: 0
+    acumulable: 0
+    descripcion: +15 de vida
+    Void: Sushi
+  - nombre: Muffin
+    ID: 10
+    icono: {fileID: 4047054281454108438, guid: 447327aaac7a1444bb952f40b91df5c2, type: 3}
+    tipo: 0
+    acumulable: 0
+    descripcion: +15 de vida
+    Void: Muffin
+  - nombre: BebidaLata
+    ID: 11
+    icono: {fileID: -6642734062061952293, guid: 447327aaac7a1444bb952f40b91df5c2,
+      type: 3}
+    tipo: 0
+    acumulable: 0
+    descripcion: +15 de HP
+    Void: BebidaLata
+  - nombre: Hamburguesa
+    ID: 12
+    icono: {fileID: -8180890307938472935, guid: 447327aaac7a1444bb952f40b91df5c2,
+      type: 3}
+    tipo: 0
+    acumulable: 0
+    descripcion: +15 de vida
+    Void: Hamburguesa
+  - nombre: PopCorn
+    ID: 13
+    icono: {fileID: -6286050239098943221, guid: 447327aaac7a1444bb952f40b91df5c2,
+      type: 3}
+    tipo: 0
+    acumulable: 0
+    descripcion: +15 de vida
+    Void: PopCorn
+  - nombre: PapasFritas
+    ID: 14
+    icono: {fileID: -1724481821602767110, guid: 447327aaac7a1444bb952f40b91df5c2,
+      type: 3}
+    tipo: 0
+    acumulable: 0
+    descripcion: +15 de vida
+    Void: PapasFritas
+  - nombre: Macarron
+    ID: 15
+    icono: {fileID: -1464968487100164429, guid: 447327aaac7a1444bb952f40b91df5c2,
+      type: 3}
+    tipo: 0
+    acumulable: 0
+    descripcion: +15 de vida
+    Void: Macarron
+  - nombre: Flan
+    ID: 16
+    icono: {fileID: -5490305100189323079, guid: 447327aaac7a1444bb952f40b91df5c2,
+      type: 3}
+    tipo: 0
+    acumulable: 0
+    descripcion: +15 de vida
+    Void: Flan
+  - nombre: Rosquilla
+    ID: 17
+    icono: {fileID: -632430354018909432, guid: 447327aaac7a1444bb952f40b91df5c2, type: 3}
+    tipo: 0
+    acumulable: 0
+    descripcion: +15 de vida
+    Void: Rosquilla
+  - nombre: CremaBatida
+    ID: 18
+    icono: {fileID: 5512957057226035010, guid: 273eae5729dae7940a56a2bdeabe03eb, type: 3}
     tipo: 1
     acumulable: 0
-    descripcion: +20 de armadura
-    Void: Armadura
+    descripcion: +15 de facha
+    Void: CremaBatida
+  - nombre: FelizNavidad
+    ID: 19
+    icono: {fileID: -3530963306889810128, guid: 273eae5729dae7940a56a2bdeabe03eb,
+      type: 3}
+    tipo: 1
+    acumulable: 0
+    descripcion: +15 de facha
+    Void: FelizNavidad
+  - nombre: MiniSobrero
+    ID: 20
+    icono: {fileID: 7579245482353814609, guid: 273eae5729dae7940a56a2bdeabe03eb, type: 3}
+    tipo: 1
+    acumulable: 0
+    descripcion: +15 de facha
+    Void: MiniSobrero
+  - nombre: Sopaipa
+    ID: 21
+    icono: {fileID: 2365025912833991636, guid: 273eae5729dae7940a56a2bdeabe03eb, type: 3}
+    tipo: 1
+    acumulable: 0
+    descripcion: +15 de facha
+    Void: Sopaipa
+  - nombre: LazoDeAmistad
+    ID: 22
+    icono: {fileID: -1809679731214854807, guid: 273eae5729dae7940a56a2bdeabe03eb,
+      type: 3}
+    tipo: 1
+    acumulable: 0
+    descripcion: +15 de facha
+    Void: LazoDeAmistad
+  - nombre: "Mo\xF1o"
+    ID: 23
+    icono: {fileID: -2909128481383740779, guid: 273eae5729dae7940a56a2bdeabe03eb,
+      type: 3}
+    tipo: 1
+    acumulable: 0
+    descripcion: +15 de facha
+    Void: "Mo\xF1o"
+  - nombre: Poncho
+    ID: 24
+    icono: {fileID: 3138738373565018619, guid: 273eae5729dae7940a56a2bdeabe03eb, type: 3}
+    tipo: 1
+    acumulable: 0
+    descripcion: +15 de facha
+    Void: Poncho
+  - nombre: CollarDeSuerte
+    ID: 25
+    icono: {fileID: 5082839851446718282, guid: 273eae5729dae7940a56a2bdeabe03eb, type: 3}
+    tipo: 1
+    acumulable: 0
+    descripcion: +15 de facha
+    Void: CollarDeSuerte
+  - nombre: GafasPixeleadas
+    ID: 26
+    icono: {fileID: 8753914694414109800, guid: 273eae5729dae7940a56a2bdeabe03eb, type: 3}
+    tipo: 1
+    acumulable: 0
+    descripcion: +15 de facha
+    Void: GafasPixeleadas
