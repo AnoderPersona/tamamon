@@ -8,7 +8,7 @@ public class tamamon : MonoBehaviour
     int maxFelicidad = 100, maxEnergia = 100, maxHambre = 100;
     float felicidadActual, energiaActual, hambreActual;
     public GameObject sol;
-    bool mimiendo;
+    public bool mimiendo;
  
     // Start is called before the first frame update
     void Start()

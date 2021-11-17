@@ -14,16 +14,24 @@ public class WanderAI : MonoBehaviour
     private bool rotandoIzq = false;
     private bool caminando = false;
 
+    private tamamon tama;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        tama = GetComponent<tamamon>();//(typeof());
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!(moviendo)){
+        if(tama.mimiendo){
+
+            rotandoDer = false;
+            rotandoIzq = false;
+            caminando = false;
+        }
+        if (!(moviendo) && !(tama.mimiendo)){
             
             StartCoroutine(Mover());
         
