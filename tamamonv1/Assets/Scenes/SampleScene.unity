@@ -688,9 +688,7 @@ GameObject:
   - component: {fileID: 295401919}
   - component: {fileID: 295401918}
   - component: {fileID: 295401920}
-  - component: {fileID: 295401921}
   - component: {fileID: 295401922}
-  - component: {fileID: 295401923}
   m_Layer: 0
   m_Name: Furro
   m_TagString: Untagged
@@ -783,20 +781,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &295401921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 295401917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a576875b07db57e4cafa4cd59612c385, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velMov: 3
-  velRot: 100
 --- !u!65 &295401922
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -810,22 +794,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.606845, y: 9.527786, z: 0.20000003}
   m_Center: {x: -0.076361805, y: -0.08224195, z: 0.00000013468491}
---- !u!54 &295401923
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 295401917}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 32
-  m_CollisionDetection: 0
 --- !u!4 &299480817 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4892216551178334, guid: 750b7a6fa26e20c49b059fef9d453c45,
