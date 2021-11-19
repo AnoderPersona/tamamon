@@ -688,8 +688,8 @@ GameObject:
   - component: {fileID: 295401919}
   - component: {fileID: 295401918}
   - component: {fileID: 295401920}
-  - component: {fileID: 295401921}
   - component: {fileID: 295401922}
+  - component: {fileID: 295401921}
   m_Layer: 0
   m_Name: Furro
   m_TagString: Untagged
@@ -791,7 +791,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 295401917}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d0f3150aaaeef24da49afaff2bbbfc8, type: 3}
+  m_Script: {fileID: 11500000, guid: 66d159994008e424dba51ae2e2395b3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ObjetoQueSeMueve: {fileID: 319799395}
@@ -2722,7 +2722,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2788,14 +2788,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.21643798, y: 0.0008348563, z: -0.0037657938, w: 0.97628874}
-  m_LocalPosition: {x: 0, y: -0.10999918, z: -0.18999815}
+  m_LocalRotation: {x: 0.18793839, y: -0, z: -0, w: 0.98218083}
+  m_LocalPosition: {x: 0, y: 5.77, z: -7.2599983}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1317558686}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 25, y: 0, z: -0.442}
---- !u!114 &963194229
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 21.665, y: 0, z: 0}
+--- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2804,12 +2804,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ccb3f76be4d92047ae738aa6d32da21, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f41bc641ed8d764a9915a1bdf96b689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 100
-  cameraBody: {fileID: 1317558686}
-  maxAngle: 30
+  Hvel: 1
 --- !u!1 &1006266981
 GameObject:
   m_ObjectHideFlags: 0
@@ -4301,8 +4299,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 6.48, z: -7.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 963194228}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

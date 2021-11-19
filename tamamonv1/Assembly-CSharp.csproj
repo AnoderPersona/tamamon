@@ -42,7 +42,6 @@
      <Compile Include="Assets\Scenes\Scripts\Canva.cs" />
      <Compile Include="Assets\Scenes\Scripts\camaraMovement.cs" />
      <Compile Include="Assets\Scenes\Scripts\LookAtPlayer.cs" />
-     <Compile Include="Assets\Scenes\Scripts\SamePosition.cs" />
      <Compile Include="Assets\Scenes\Scripts\tamamon.cs" />
      <Compile Include="Assets\Scenes\Scripts\CombatManager.cs" />
      <Compile Include="Assets\Scenes\Scripts\DataBase.cs" />
@@ -50,6 +49,8 @@
      <Compile Include="Assets\Scenes\Scripts\Item.cs" />
      <Compile Include="Assets\Scenes\Scripts\Inventario.cs" />
      <Compile Include="Assets\Scenes\Scripts\WanderAI.cs" />
+     <Compile Include="Assets\Scenes\Scripts\SamePosition.cs" />
+     <Compile Include="Assets\Scenes\Scripts\CamaraMove.cs" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\Scenes\Shader\PlayerShadow.shader" />
      <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
@@ -631,12 +632,6 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Sysroot.Linux_x86_64">
-        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
-        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -660,9 +655,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.SysrootPackage.Editor">
-        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
