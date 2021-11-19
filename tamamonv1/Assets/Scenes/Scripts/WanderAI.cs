@@ -13,6 +13,7 @@ public class WanderAI : MonoBehaviour
     private bool rotandoDer = false;
     private bool rotandoIzq = false;
     private bool caminando = false;
+    public Animator animador;
 
     private tamamon tama;
 
@@ -51,7 +52,11 @@ public class WanderAI : MonoBehaviour
         
         if (caminando){
         
+            
+            
             transform.Translate(Vector3.forward * Time.deltaTime * -velMov);
+            
+            
             
         }
         
@@ -68,8 +73,10 @@ public class WanderAI : MonoBehaviour
         moviendo = true;
         yield return new WaitForSeconds(esperaCamina);
         caminando = true;
+        animador.SetBool("Caminando", true);
         yield return new WaitForSeconds(tiempoCamina);
         caminando = false;
+        animador.SetBool("Caminando", false);
         yield return new WaitForSeconds(esperaRot);
         
         if (rotarIzqDer == 1){
