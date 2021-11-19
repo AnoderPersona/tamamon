@@ -42,6 +42,7 @@
      <Compile Include="Assets\Scenes\Scripts\Canva.cs" />
      <Compile Include="Assets\Scenes\Scripts\camaraMovement.cs" />
      <Compile Include="Assets\Scenes\Scripts\LookAtPlayer.cs" />
+     <Compile Include="Assets\Scenes\Scripts\SamePosition.cs" />
      <Compile Include="Assets\Scenes\Scripts\tamamon.cs" />
      <Compile Include="Assets\Scenes\Scripts\CombatManager.cs" />
      <Compile Include="Assets\Scenes\Scripts\DataBase.cs" />
@@ -49,7 +50,6 @@
      <Compile Include="Assets\Scenes\Scripts\Item.cs" />
      <Compile Include="Assets\Scenes\Scripts\Inventario.cs" />
      <Compile Include="Assets\Scenes\Scripts\WanderAI.cs" />
-     <Compile Include="Assets\Scenes\Scripts\SamePosition.cs" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\Scenes\Shader\PlayerShadow.shader" />
      <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
