@@ -10,13 +10,17 @@ public class CombatManager : MonoBehaviour
 
     public Text oStats, eStats, oName, eName, oDiceTxt, eDiceTxt, oDialogo, eDialogo, splashText, lesgo;
     public GameObject desicionObj, volver;
+   
     bool inBattle;
 
     private string[] dialogoPool = {""};
+    
+    
 
     // Start is called before the first frame update
     void Start()
     {
+        
         inBattle = false;
         turno = 0;
         eDice = 6;
