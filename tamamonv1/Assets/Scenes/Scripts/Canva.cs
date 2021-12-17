@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Canva : MonoBehaviour
 {
@@ -14,5 +15,12 @@ public class Canva : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void AllowFight(){
+        Button btnFight = transform.Find("CambiarEscena").gameObject.GetComponent<Button>();
+        if(btnFight != null){
+            btnFight.interactable = true;
+        }
     }
 }
