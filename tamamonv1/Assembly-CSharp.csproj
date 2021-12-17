@@ -38,10 +38,12 @@
   <ItemGroup>
      <Compile Include="Assets\Scenes\Scripts\CartelEliminacion.cs" />
      <Compile Include="Assets\Scenes\Scripts\barras.cs" />
+     <Compile Include="Assets\Scenes\Scripts\CamaraMove.cs" />
      <Compile Include="Assets\Scenes\Scripts\ItemSuelto.cs" />
      <Compile Include="Assets\Scenes\Scripts\Canva.cs" />
      <Compile Include="Assets\Scenes\Scripts\camaraMovement.cs" />
      <Compile Include="Assets\Scenes\Scripts\LookAtPlayer.cs" />
+     <Compile Include="Assets\Scenes\Scripts\SamePosition.cs" />
      <Compile Include="Assets\Scenes\Scripts\tamamon.cs" />
      <Compile Include="Assets\Scenes\Scripts\CombatManager.cs" />
      <Compile Include="Assets\Scenes\Scripts\DataBase.cs" />
@@ -49,8 +51,6 @@
      <Compile Include="Assets\Scenes\Scripts\Item.cs" />
      <Compile Include="Assets\Scenes\Scripts\Inventario.cs" />
      <Compile Include="Assets\Scenes\Scripts\WanderAI.cs" />
-     <Compile Include="Assets\Scenes\Scripts\SamePosition.cs" />
-     <Compile Include="Assets\Scenes\Scripts\CamaraMove.cs" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\Scenes\Shader\PlayerShadow.shader" />
      <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
@@ -626,14 +626,17 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -641,8 +644,14 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -653,8 +662,35 @@
     <Reference Include="Unity.Rider.Editor">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+        <HintPath>D:\Programitas\Unity\tamamon\tamamonv1\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
