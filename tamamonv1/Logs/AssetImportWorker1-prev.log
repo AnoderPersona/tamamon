@@ -1,0 +1,1052 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.6f1 (8c4e826ba445) revision 9195138'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 16316 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Programitas\Unity\2021.2.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Programitas/Unity/tamamon/tamamonv1
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62641
+Successfully changed project path to: D:/Programitas/Unity/tamamon/tamamonv1
+D:/Programitas/Unity/tamamon/tamamonv1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 100.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.6f1 (8c4e826ba445)
+[Subsystems] Discovering subsystems at path D:/Programitas/Unity/2021.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Programitas/Unity/tamamon/tamamonv1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'D:/Programitas/Unity/2021.2.6f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programitas/Unity/2021.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programitas/Unity/2021.2.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programitas/Unity/2021.2.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Programitas/Unity/2021.2.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Programitas/Unity/2021.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Programitas/Unity/2021.2.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.007809 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 95.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1061ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (793ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (477ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010054 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 100.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.619 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2621ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (2261ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (1617ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (1232ms)
+				ProcessInitializeOnLoadMethodAttributes (135ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3344 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (348.2 KB). Loaded Objects now: 3833.
+Memory consumption went from 167.9 MB to 167.6 MB.
+Total: 8.807000 ms (FindLiveObjects: 1.065200 ms CreateObjectMapping: 0.763100 ms MarkObjects: 6.745200 ms  DeleteObjects: 0.231300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 192443.375454 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_C_Textures/billboard.png
+  artifactKey: Guid(3991938c5b4edeb3d80997e6d735cc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_C_Textures/billboard.png using Guid(3991938c5b4edeb3d80997e6d735cc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a4c8616ffde97bc2e6f032ec962ec9') in 0.232512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_D_Textures/atlas.png
+  artifactKey: Guid(1a04d2591191bf170838eadc2c25ce8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_D_Textures/atlas.png using Guid(1a04d2591191bf170838eadc2c25ce8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2c654a9a9422bc8c5dc312770562a9') in 0.140114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_C_Textures/billboard.png
+  artifactKey: Guid(130eb39ec39b053438115b996cb66725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_C_Textures/billboard.png using Guid(130eb39ec39b053438115b996cb66725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddaf256d036c414edf79c6e17bac0bb6') in 0.102317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FantasyEnvironments/Environments/Textures/Rock1.tga
+  artifactKey: Guid(581c268c4d271934b96596d532a0a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Textures/Rock1.tga using Guid(581c268c4d271934b96596d532a0a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efeedff32f6f95f289b32db9845c79aa') in 0.102217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/scree_mask.tif
+  artifactKey: Guid(e2a486d7d86a7e8469b15e7ae4d004f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/scree_mask.tif using Guid(e2a486d7d86a7e8469b15e7ae4d004f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fa913390003b9f78ecb07082c24a2c') in 0.048367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_mask.tif
+  artifactKey: Guid(44f7e6aa71506b041ac0a60db8868a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_mask.tif using Guid(44f7e6aa71506b041ac0a60db8868a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc7b441ffff0eb16ee0f1290f2a47e5') in 0.122181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Flat Textures Pack/Textures/Summer_Rocks.png
+  artifactKey: Guid(fb4c9126ed8df1140868be39f7d0b4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Textures/Summer_Rocks.png using Guid(fb4c9126ed8df1140868be39f7d0b4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0bd08ff0b50fb9cb091e6c8878b46b') in 0.099711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_C_Textures/billboard_normal.png
+  artifactKey: Guid(f612cd4f9e52e3384b034a6dc9104b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_C_Textures/billboard_normal.png using Guid(f612cd4f9e52e3384b034a6dc9104b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315ba9ec932e725aa7f95b06e0dde437') in 0.200717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_A_Textures/billboard.png
+  artifactKey: Guid(888466df77cc4501baaa63695cc8de4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_A_Textures/billboard.png using Guid(888466df77cc4501baaa63695cc8de4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6041e9954a1137fc07c7dd082cffb632') in 0.284967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Flat Textures Pack/Textures/Summer_CrackedRock.png
+  artifactKey: Guid(29b952018edebb44ca66eeedaa2411c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Textures/Summer_CrackedRock.png using Guid(29b952018edebb44ca66eeedaa2411c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45347876b72d298ef75ea1ff256e3dda') in 0.179823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_D_Textures/atlas.png
+  artifactKey: Guid(31de1c11d713daa299e36212ef2d766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_D_Textures/atlas.png using Guid(31de1c11d713daa299e36212ef2d766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d31993317eb944ac50cd367df8e2ba6') in 0.034693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_E_Textures/atlas.png
+  artifactKey: Guid(1c55b5fe909bc4c72ac7414e4dd607c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_E_Textures/atlas.png using Guid(1c55b5fe909bc4c72ac7414e4dd607c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe462deddfa390594812c9fcb179958e') in 0.024805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_B_Textures/translucency_gloss.png
+  artifactKey: Guid(d0850e601c87da79585359e87b872161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_B_Textures/translucency_gloss.png using Guid(d0850e601c87da79585359e87b872161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1106b095e172c088bcde73ad3b32893') in 0.016843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_F_Textures/bark.png
+  artifactKey: Guid(ca17955f59de549e4b03fa2eb71f383b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_F_Textures/bark.png using Guid(ca17955f59de549e4b03fa2eb71f383b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5afb994be2db04755468caa38085ad0') in 0.019526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E_Textures/bark.png
+  artifactKey: Guid(a387cf705b559173ea1d19256ec451da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E_Textures/bark.png using Guid(a387cf705b559173ea1d19256ec451da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4851d31eb6de2817614532e52b56662f') in 0.021163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_B_Textures/billboard.png
+  artifactKey: Guid(f3b338aee4124b2bc8fb41c2de36c9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_B_Textures/billboard.png using Guid(f3b338aee4124b2bc8fb41c2de36c9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f610215f50d408f9707348553257094c') in 0.139970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_C_Textures/bark.png
+  artifactKey: Guid(6248f9b244ab752ec9ffe194e4887bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_C_Textures/bark.png using Guid(6248f9b244ab752ec9ffe194e4887bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e7e348bd02fdceca65679d0fe0c9bf') in 0.026744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_F_Textures/billboard.png
+  artifactKey: Guid(c75e397db01a62fe6bfd7b610573c7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_F_Textures/billboard.png using Guid(c75e397db01a62fe6bfd7b610573c7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfe59e8d5d503ddb1dea6d98bf96a0b') in 0.197181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_C_Textures/atlas.png
+  artifactKey: Guid(6ce302ff68d31080aa80f9b1ea980cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_C_Textures/atlas.png using Guid(6ce302ff68d31080aa80f9b1ea980cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4afdcd917d27d788c9838bb3446766') in 0.022637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_C_Textures/atlas.png
+  artifactKey: Guid(3e8cdb9fe0d63af3cb2ba53a4ff03b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_C_Textures/atlas.png using Guid(3e8cdb9fe0d63af3cb2ba53a4ff03b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25edaba3d96cbc13363d75599a63c34') in 0.026623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_B_Textures/billboard.png
+  artifactKey: Guid(11391658c999a5cdc8a0c3dba9d48f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_B_Textures/billboard.png using Guid(11391658c999a5cdc8a0c3dba9d48f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7408b70637c994d5f0b8283a8018fd6a') in 0.064396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/RPG_inventory_icons/belts.png
+  artifactKey: Guid(da09804303305f542a686824630e7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_inventory_icons/belts.png using Guid(da09804303305f542a686824630e7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10410b5c8909ad7943bc10163016ce08') in 0.090387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_D_Textures/bark.png
+  artifactKey: Guid(4709aa5251e085b1a86c52ab8df28aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_D_Textures/bark.png using Guid(4709aa5251e085b1a86c52ab8df28aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af36cbe83c2fa2a73c3d9ef29f37fb5') in 0.026570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A_Textures/billboard.png
+  artifactKey: Guid(3f2d5db374968e0998ff86b4d0c8dd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A_Textures/billboard.png using Guid(3f2d5db374968e0998ff86b4d0c8dd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be8eabf18f02f8a7dce643d313b5a7e') in 0.073869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_C_Textures/bark.png
+  artifactKey: Guid(f9dac1fa20b5bcd0b942effa248c982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_C_Textures/bark.png using Guid(f9dac1fa20b5bcd0b942effa248c982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3198c689510f11eeae681a525aa065') in 0.029247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/RPG_inventory_icons/bag.png
+  artifactKey: Guid(fe025e83f69d0b54f8a4fe3c7c128fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_inventory_icons/bag.png using Guid(fe025e83f69d0b54f8a4fe3c7c128fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85855f06d5e0514737eb7842032cbfad') in 0.064294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_B_Textures/translucency_gloss.png
+  artifactKey: Guid(6aa44213a00d2c3fab9ee35ec9c772f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_B_Textures/translucency_gloss.png using Guid(6aa44213a00d2c3fab9ee35ec9c772f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c653fa91e00debf8d705a0888d477afa') in 0.016254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E_Textures/billboard_normal.png
+  artifactKey: Guid(52f61a978ba60869e84ec55958aea404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E_Textures/billboard_normal.png using Guid(52f61a978ba60869e84ec55958aea404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9934e3d1efc4703080fcefa78a8df258') in 0.078996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_F_Textures/atlas.png
+  artifactKey: Guid(48d6f666e26c3e409995e2d777a4aab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_F_Textures/atlas.png using Guid(48d6f666e26c3e409995e2d777a4aab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddc0720114e36da8fc700e9a7043abc') in 0.022804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/cracked_earth01.tif
+  artifactKey: Guid(fc6089e3bffbdc9489980dbed57a64f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/cracked_earth01.tif using Guid(fc6089e3bffbdc9489980dbed57a64f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1403832012b59f24f247e1a9a6c83c') in 0.102381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_E_Textures/billboard.png
+  artifactKey: Guid(d34183f49cdf9dc638b455fe17e6a32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_E_Textures/billboard.png using Guid(d34183f49cdf9dc638b455fe17e6a32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1125c027dbd97f78fb3af43eff8f60b2') in 0.133564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_D_Textures/billboard_normal.png
+  artifactKey: Guid(c8003ec92418dffe1996abed5104d40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_D_Textures/billboard_normal.png using Guid(c8003ec92418dffe1996abed5104d40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac68a3047e9d8deea2c793c9fc988328') in 0.062023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_D_Textures/bark.png
+  artifactKey: Guid(05b73257eff5c3caabbda08aac8ff98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_D_Textures/bark.png using Guid(05b73257eff5c3caabbda08aac8ff98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd0028c8a0a9e18da6f9e9fc31ed782') in 0.025587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_E_Textures/bark.png
+  artifactKey: Guid(e4df050e4f046c79eab68eba2b80476f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_E_Textures/bark.png using Guid(e4df050e4f046c79eab68eba2b80476f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56871910cbc3f9b21467fae60ecb4c78') in 0.021777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_B_Textures/bark.png
+  artifactKey: Guid(baa6fbb098fb365268a7ed4d0f878a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_B_Textures/bark.png using Guid(baa6fbb098fb365268a7ed4d0f878a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd25f6dbec81f7cd402ecbf97c97a972') in 0.020475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_F_Textures/billboard_normal.png
+  artifactKey: Guid(ec912d47787e34f69a342e1be4ae6ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_F_Textures/billboard_normal.png using Guid(ec912d47787e34f69a342e1be4ae6ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c27d1675d3a3581ee539fd552d8a50') in 0.167905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A_Textures/atlas.png
+  artifactKey: Guid(a6dcad8ee2a44de6fad7a1986d72c00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A_Textures/atlas.png using Guid(a6dcad8ee2a44de6fad7a1986d72c00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b735460cd747a4ee31f9d6bc7c1f30e0') in 0.019528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A_Textures/billboard_normal.png
+  artifactKey: Guid(f89a789be1f4d8bb48031377cb610886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A_Textures/billboard_normal.png using Guid(f89a789be1f4d8bb48031377cb610886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c090a8ac737a861dd0b2a9321dbf5f7c') in 0.161614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_D_Textures/billboard.png
+  artifactKey: Guid(166398fbe2a150202a27b505a04410e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_D_Textures/billboard.png using Guid(166398fbe2a150202a27b505a04410e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9b832f9ccc6de5211cebad987b6a23') in 0.157338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_A_Textures/atlas.png
+  artifactKey: Guid(1073a3d3b3a93167e9e5376483f66c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_A_Textures/atlas.png using Guid(1073a3d3b3a93167e9e5376483f66c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1a5e0c31f9ec9862022332c6f6e5e8') in 0.031096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_D_Textures/billboard.png
+  artifactKey: Guid(491cdb5bee465a531b5073b3e7c6df19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_D_Textures/billboard.png using Guid(491cdb5bee465a531b5073b3e7c6df19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e52c711249831d02d4359424293ddd6') in 0.086037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_C_Textures/atlas.png
+  artifactKey: Guid(5fa5da2ce14f72503a0d577fa8a0b18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_C_Textures/atlas.png using Guid(5fa5da2ce14f72503a0d577fa8a0b18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed5271588f7c5fe0c22b020e1ea5687') in 0.029772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Flat Textures Pack/Textures/Desert_Cliff.png
+  artifactKey: Guid(f19def3b08a4bf34da11bd34756ee17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Textures/Desert_Cliff.png using Guid(f19def3b08a4bf34da11bd34756ee17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f4090edf20d897485f704913990e33') in 0.254187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/RPG_inventory_icons/necklace.PNG
+  artifactKey: Guid(0e123cfdc54a3ca4684816a34167a566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_inventory_icons/necklace.PNG using Guid(0e123cfdc54a3ca4684816a34167a566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9c4b42f7fce7051621f7e9cc302e1b') in 0.060222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.327323 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon01.tif
+  artifactKey: Guid(903360ef543b50449ae74931c4fddc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon01.tif using Guid(903360ef543b50449ae74931c4fddc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318eac561aae23862101fdc54d7c01ce') in 0.103246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon03.tif
+  artifactKey: Guid(00e07f21ff32c094ea64f6753fb3b542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon03.tif using Guid(00e07f21ff32c094ea64f6753fb3b542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa19abdbc9af7d2353cd1b6db5a38daa') in 0.121016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/flat_mountain01.tif
+  artifactKey: Guid(d2a704d1b2d8ad948aab36a028a684b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/flat_mountain01.tif using Guid(d2a704d1b2d8ad948aab36a028a684b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05639aa5304c1714858718762504ac5a') in 0.219152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Flat Textures Pack/Textures/Desert_Sand_A.png
+  artifactKey: Guid(8970d1266546d104d9e26a1a97f2c74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Textures/Desert_Sand_A.png using Guid(8970d1266546d104d9e26a1a97f2c74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ec508fccb5c18538f82d3f4abfe340') in 0.062206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Flat Textures Pack/Textures/Cave_Magma.png
+  artifactKey: Guid(d028d237290dff545b1ac2636948f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Textures/Cave_Magma.png using Guid(d028d237290dff545b1ac2636948f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24246079c6617af3ff1ed1897101b07b') in 0.115427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Flat Textures Pack/Textures/Cave_GoldenPebbles.png
+  artifactKey: Guid(e63e6b5575cf91b4883ed33d002c8606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Textures/Cave_GoldenPebbles.png using Guid(e63e6b5575cf91b4883ed33d002c8606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a5ff0f7b9b015493f6e0162f943e1b') in 0.072273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_mask.tif
+  artifactKey: Guid(3c6d7b80bcc59ae448166eacd4ad79b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_mask.tif using Guid(3c6d7b80bcc59ae448166eacd4ad79b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390e004089979fbf6bd6602418631e6f') in 0.090281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/RPG_inventory_icons/f.PNG
+  artifactKey: Guid(ed1074391f139544d941ae0870937dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_inventory_icons/f.PNG using Guid(ed1074391f139544d941ae0870937dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba198a87bdfb85ecc2459e6ea8c0582b') in 0.082661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_rock_normal.png
+  artifactKey: Guid(26c8361caba48f4aba2af966c0d53e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_rock_normal.png using Guid(26c8361caba48f4aba2af966c0d53e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38057a98ffc24285b7c372daebc795ec') in 0.222865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_wet_pebbles_normal.jpg
+  artifactKey: Guid(6be91ec3ba6eb6ecab654a01364e23ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_wet_pebbles_normal.jpg using Guid(6be91ec3ba6eb6ecab654a01364e23ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81de8ba98688c28cd22a482fdf934190') in 0.152426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_moss03_normal.png
+  artifactKey: Guid(ef82a3fb98dc183a28253903aae8dd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_moss03_normal.png using Guid(ef82a3fb98dc183a28253903aae8dd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2488b5b7bcb5760b9a23042fb4a92d49') in 0.158227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_torii_wood.png
+  artifactKey: Guid(d0b4212198d97a013bd513f89583f3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_torii_wood.png using Guid(d0b4212198d97a013bd513f89583f3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a51a14b2693d442446dd604809f773') in 0.082624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/Leaves/br_sakura_branches.png
+  artifactKey: Guid(9d2dbb4538a7148a0a8e9f02ef427e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/Leaves/br_sakura_branches.png using Guid(9d2dbb4538a7148a0a8e9f02ef427e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736ee76c07a2671df2354f1597f5d733') in 0.166268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_grass_01.jpg
+  artifactKey: Guid(c18478a6da1be4c3ead98c95909a392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_grass_01.jpg using Guid(c18478a6da1be4c3ead98c95909a392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5f00dae16e27b951bda16230ed5d32') in 0.135585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/Leaves/br_leaves_maple.png
+  artifactKey: Guid(e42e96d9c1d5f3feda83e458e87d981a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/Leaves/br_leaves_maple.png using Guid(e42e96d9c1d5f3feda83e458e87d981a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea518d2844970ff40268dbdb1dca911') in 0.217173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/Bark/br_sakura_bark.jpg
+  artifactKey: Guid(76e1a9efa2e0a43dbb166e7188c64c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/Bark/br_sakura_bark.jpg using Guid(76e1a9efa2e0a43dbb166e7188c64c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53747fbf1645a2c3692348981308410b') in 0.032382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_wet_pebbles.jpg
+  artifactKey: Guid(43a8cebf68734c3d4a896da60dd13c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_wet_pebbles.jpg using Guid(43a8cebf68734c3d4a896da60dd13c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511848e61529a42e862b9169b2d3f135') in 0.067362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_normal.tif
+  artifactKey: Guid(1ff4687a05ada474ca7eaf3010a871f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_normal.tif using Guid(1ff4687a05ada474ca7eaf3010a871f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67658a1ee4f92d368f985739386e872f') in 0.210259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_albedo.tif
+  artifactKey: Guid(7f3df385222f5b1428f6a156037deb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_albedo.tif using Guid(7f3df385222f5b1428f6a156037deb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc4362af3e5b95abb9858287cbe431d') in 0.150318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_B_Textures/billboard_normal.png
+  artifactKey: Guid(bbb9b407c59b57e708adbdfb8803749f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_B_Textures/billboard_normal.png using Guid(bbb9b407c59b57e708adbdfb8803749f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3a15e479c185242e1de016a33e2a5c') in 0.165153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/RPG_inventory_icons/book.PNG
+  artifactKey: Guid(ae496f5dad56ea645b72d374a0376368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_inventory_icons/book.PNG using Guid(ae496f5dad56ea645b72d374a0376368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481a9add02ca93a652ac9e8c3a604c3a') in 0.048194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/Bark/br_black_pine_bark_n.png
+  artifactKey: Guid(3bc1e6d3beb3f8ad0bea213d2c274bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/Bark/br_black_pine_bark_n.png using Guid(3bc1e6d3beb3f8ad0bea213d2c274bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf4194859117967643b97d2b5f01afb') in 0.128112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/GrassBillboards/billboardgrass0001.png
+  artifactKey: Guid(32481d860dff7ed828966e30763ee5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/GrassBillboards/billboardgrass0001.png using Guid(32481d860dff7ed828966e30763ee5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac691dae4f17dd02587ed2b61abc848f') in 0.161623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_D_Textures/billboard_normal.png
+  artifactKey: Guid(ae46ebe4ba2929542b7f58472003824c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_D_Textures/billboard_normal.png using Guid(ae46ebe4ba2929542b7f58472003824c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594da78aae99aa1d87eb10570b0eb64e') in 0.158452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_B_Textures/billboard_normal.png
+  artifactKey: Guid(0ee36352c91e1fb1087c8199c9be2fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_B_Textures/billboard_normal.png using Guid(0ee36352c91e1fb1087c8199c9be2fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33557d63c259f8958f62c1662ec51430') in 0.146297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_A_Textures/billboard_normal.png
+  artifactKey: Guid(70fb24123410cbbb5a0ffe83c74a75a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_A_Textures/billboard_normal.png using Guid(70fb24123410cbbb5a0ffe83c74a75a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6150a4946542108d5e3c320090f8f3') in 0.114337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/RPG_inventory_icons/boots.png
+  artifactKey: Guid(e420c5bc93cb2604695a893500c897e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_inventory_icons/boots.png using Guid(e420c5bc93cb2604695a893500c897e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b92842ba20bf6ed4466c0671b11ffc') in 0.090686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_E_Textures/billboard_normal.png
+  artifactKey: Guid(6a36619c82debf02d8138d6147409bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_E_Textures/billboard_normal.png using Guid(6a36619c82debf02d8138d6147409bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07aa531587e1dc795032663cd5c2a285') in 0.186860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Birch_leaves.tga
+  artifactKey: Guid(ee8680ca49b912746958dd16c5d23051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Birch_leaves.tga using Guid(ee8680ca49b912746958dd16c5d23051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fff8be3ad80919d7541265a77464a6') in 0.133135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/Bark/br_black_pine_bark.png
+  artifactKey: Guid(16268af0fafb9761b9d12b83ecf3b896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/Bark/br_black_pine_bark.png using Guid(16268af0fafb9761b9d12b83ecf3b896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ed244fc97ba32109277fe5bf0ac6c7') in 0.100851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon05.tif
+  artifactKey: Guid(3771b24b1afb4bd4d86e3ba795b65a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon05.tif using Guid(3771b24b1afb4bd4d86e3ba795b65a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35f18bed77004939ccfc7b906918b99') in 0.197248 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009213 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.106 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3107ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (2613ms)
+			LoadAssemblies (219ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (541ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (131ms)
+			SetupLoadedEditorAssemblies (1398ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (1023ms)
+				ProcessInitializeOnLoadMethodAttributes (164ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (72ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3295 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (317.0 KB). Loaded Objects now: 4970.
+Memory consumption went from 285.8 MB to 285.5 MB.
+Total: 16.998900 ms (FindLiveObjects: 8.606900 ms CreateObjectMapping: 0.991500 ms MarkObjects: 7.216200 ms  DeleteObjects: 0.170300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+A PreviewRenderUtility was not clean up properly before assembly reloading which lead to leaking this scene in the Editor. This can be caused by not calling Cleanup() (or its execution being interrupted) during the OnDisable of an Editor or an EditorWindow.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.PreviewRenderUtility:Finalize ()
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008859 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Object.IsNativeObjectAlive (UnityEngine.Object o) [0x00001] in <5db060c2e1a7406683b7d65d782d6ade>:0 
+  at UnityEngine.Object.CompareBaseObjects (UnityEngine.Object lhs, UnityEngine.Object rhs) [0x0001d] in <5db060c2e1a7406683b7d65d782d6ade>:0 
+  at UnityEngine.Object.op_Implicit (UnityEngine.Object exists) [0x00001] in <5db060c2e1a7406683b7d65d782d6ade>:0 
+  at UnityEditor.PreviewRenderUtility.Cleanup () [0x0001f] in <52409df47eec4ff4a3e5a5be37682d54>:0 
+  at UnityEditor.Texture3DPreview.OnDisable () [0x0000f] in <52409df47eec4ff4a3e5a5be37682d54>:0 
+
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.575 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2576ms)
+		BeginReloadAssembly (338ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (33ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (2007ms)
+			LoadAssemblies (238ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (455ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (1117ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (767ms)
+				ProcessInitializeOnLoadMethodAttributes (152ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (58ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (317.0 KB). Loaded Objects now: 4985.
+Memory consumption went from 283.9 MB to 283.6 MB.
+Total: 7.126100 ms (FindLiveObjects: 0.742300 ms CreateObjectMapping: 0.652600 ms MarkObjects: 5.610800 ms  DeleteObjects: 0.118200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
