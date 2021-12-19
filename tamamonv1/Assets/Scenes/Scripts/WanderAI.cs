@@ -9,7 +9,7 @@ public class WanderAI : MonoBehaviour
     public float velRot = 100.0f;
     
     private bool moviendo = false;
-    private bool rotando = false;
+    //private bool rotando = false;
     private bool rotandoDer = false;
     private bool rotandoIzq = false;
     private bool caminando = false;

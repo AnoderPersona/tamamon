@@ -9,18 +9,17 @@ public class CombatManager : MonoBehaviour
     int turno;
 
     public Text oStats, eStats, oName, eName, oDiceTxt, eDiceTxt, oDialogo, eDialogo, splashText, lesgo;
-    public GameObject desicionObj, volver;
+    public GameObject desicionObj, volver, oTamamon, eTamamon;
    
     bool inBattle;
 
-    private string[] dialogoPool = {""};
-    
-    
+    //private string[] dialogoPool = {""};
+    int race;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        race = tamamon.race;
         inBattle = false;
         turno = 0;
         eDice = 6;
@@ -29,14 +28,15 @@ public class CombatManager : MonoBehaviour
         eHP = 10;
         oHP = 10;
 
+        int eRace = Random.Range(1,4);
         eAtk = Random.Range(-1,3);
         eDef = Random.Range(-1,3);
         eEva = Random.Range(-1,3);
 
         //TODO tener stats del tamamon propio y cargarlos aqui
-        oAtk = 0;
-        oDef = 0;
-        oEva = 0;
+        oAtk = tamamon.atk;
+        oDef = tamamon.def;
+        oEva = tamamon.eva;
 
         if(desicionObj != null){
             desicionObj.SetActive(false);
@@ -48,10 +48,48 @@ public class CombatManager : MonoBehaviour
         if(eStats != null){
             eStats.text = "ATK: "+eAtk+" DEF: "+eDef+" EVA: "+eEva+" HP: "+eHP;
         }
+
+        Transform ographics = oTamamon.transform.Find("tamamon"+race);
+        if(ographics != null){
+            ographics.gameObject.SetActive(true);
+        }
+        switch(race){
+            case 1:
+                oName.text = "Applemon";
+                break;
+            case 2:
+                oName.text = "Traucomon";
+                break;
+            case 3:
+                oName.text = "Furromon";
+                break;
+            default:
+                oName.text = "Pikachu";
+                break;
+        }
+
+        Transform egraphics = eTamamon.transform.Find("tamamon"+eRace);
+        if(egraphics != null){
+            egraphics.gameObject.SetActive(true);
+        }
+        switch(eRace){
+            case 1:
+                eName.text = "Applemon";
+                break;
+            case 2:
+                eName.text = "Traucomon";
+                break;
+            case 3:
+                eName.text = "Furromon";
+                break;
+            default:
+                eName.text = "Pikachu";
+                break;
+        }
     }
 
     public void Roll(){
-        if(inBattle == true) { inBattle = false; }
+        if(inBattle == false) { inBattle = true; }
         if(volver != null) { volver.SetActive(false); }
         if(lesgo != null) { lesgo.text = "Roll"; }
         if(splashText != null) { splashText.text = "¡Tu Turno!"; }
@@ -88,7 +126,7 @@ public class CombatManager : MonoBehaviour
     }
 
     IEnumerator RollCR(){
-        if(turno == 0){
+        if(turno == 0 && inBattle){
             oDice = Random.Range(1,7);
             oDiceTxt.text = "";
             yield return new WaitForSeconds(1);
@@ -133,7 +171,7 @@ public class CombatManager : MonoBehaviour
             if(desicionObj != null) { desicionObj.SetActive(true); }
             eDiceTxt.text = eDice+"";
         }
-        if(turno == 2){ //moriste y hay que desevolucionas unu
+        if(turno == 2){ //moriste y hay que ver si desevolucionas unu
             if(oDialogo != null) { oDialogo.text = "La proxima vez ganaré!"; }
             yield return new WaitForSeconds(1);
 
@@ -147,8 +185,12 @@ public class CombatManager : MonoBehaviour
             yield return new WaitForSeconds(1);
             eDiceTxt.text = eDice+"";
             if(oDice < eDice){
-                //cagaste desevolucionas huevo qlo
+                if(eDialogo != null) { eDialogo.text = "Pal' Gualag!"; }
+                yield return new WaitForSeconds(1);
+                eDiceTxt.text = eDice+"";
+                tamamon.Devolve();
             }
+            if(volver != null) { volver.SetActive(true); }
         }
     }
     IEnumerator DefendCR(){
@@ -185,6 +227,8 @@ public class CombatManager : MonoBehaviour
         if(oStats != null) { oStats.text = "ATK: "+oAtk+" DEF: "+oDef+" EVA: "+oEva+" HP: "+oHP; }
         turno = 0;
         if(splashText != null) { splashText.text = "¡Tu Turno!"; }
+        yield return new WaitForSeconds(2);
+        if(oDialogo != null) { oDialogo.text = ""; }
     }
     IEnumerator win(){
         inBattle = false;
@@ -192,7 +236,7 @@ public class CombatManager : MonoBehaviour
         if(volver != null) { volver.SetActive(true); }
         if(desicionObj != null) { desicionObj.SetActive(false); }
         if(lesgo != null) { lesgo.transform.parent.gameObject.SetActive(false); }
-        if(oDialogo != null) { oDialogo.text = "Te gane, dsinstala manco!"; }
+        if(oDialogo != null) { oDialogo.text = "Te gane, desinstala manco!"; }
         yield return new WaitForSeconds(1);
         if(eDialogo != null) { eDialogo.text = "Ganaré la proxima vez!"; }
         yield return new WaitForSeconds(1);

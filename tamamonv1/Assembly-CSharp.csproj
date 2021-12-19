@@ -42,6 +42,7 @@
      <Compile Include="Assets\Scenes\Scripts\camaraMovement.cs" />
      <Compile Include="Assets\Scenes\Scripts\LookAtPlayer.cs" />
      <Compile Include="Assets\Scenes\Scripts\SamePosition.cs" />
+     <Compile Include="Assets\Scenes\Scripts\titleManager.cs" />
      <Compile Include="Assets\Scenes\Scripts\tamamon.cs" />
      <Compile Include="Assets\Scenes\Scripts\CombatManager.cs" />
      <Compile Include="Assets\Scenes\Scripts\SceneChange.cs" />
