@@ -9,10 +9,15 @@ public class tamamon : MonoBehaviour
     float felicidadActual, energiaActual, hambreActual;
     public GameObject sol;
     public bool mimiendo;
+    
+    public Material skyBoxDia;
+    public Material skyBoxNoche;
  
     // Start is called before the first frame update
     void Start()
     {
+    
+        RenderSettings.skybox = skyBoxDia;
         felicidadActual = maxFelicidad;
         energiaActual = maxEnergia;
         hambreActual = maxHambre;
@@ -25,6 +30,8 @@ public class tamamon : MonoBehaviour
     public void mimir (){
         
         mimiendo = !mimiendo;
+        
+        if (!mimiendo) RenderSettings.skybox = skyBoxDia;
 
     }
     public void comer (){
@@ -34,6 +41,7 @@ public class tamamon : MonoBehaviour
         }
         if(mimiendo){
             mimiendo = false;
+            RenderSettings.skybox = skyBoxDia;
         }
     }
     public void cepillar(){
@@ -42,6 +50,7 @@ public class tamamon : MonoBehaviour
             felicidadActual = maxFelicidad;
         }
         if(mimiendo){
+            RenderSettings.skybox = skyBoxDia;
             mimiendo = false;
         }
     }
@@ -50,6 +59,7 @@ public class tamamon : MonoBehaviour
     void Update()
     {
         if(mimiendo){
+            RenderSettings.skybox = skyBoxNoche;
             energiaActual += Time.deltaTime;
             if(energiaActual > maxEnergia){
                 energiaActual = maxEnergia;
