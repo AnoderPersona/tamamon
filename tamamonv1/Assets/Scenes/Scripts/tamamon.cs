@@ -16,11 +16,19 @@ public class tamamon : MonoBehaviour
     public static float lifetime = 0;
     public static int race = -1, stage = 0, atk = 0, def = 0, eva = 0;
     static bool needsDevolve = false;
+    
+    public Animator animador10;
+    public Animator animador11;
+    public Animator animador20;
+    public Animator animador21;
+    public Animator animador30;
+    public Animator animador31;
+    public GameObject objExplosion;
  
     // Start is called before the first frame update
     void Start()
     {
-    
+        objExplosion.SetActive(false);
         RenderSettings.skybox = skyBoxDia;
         felicidadActual = maxFelicidad;
         energiaActual = maxEnergia;
@@ -29,32 +37,77 @@ public class tamamon : MonoBehaviour
         felicidad.setmax(maxFelicidad);
         hambre.setmax(maxHambre);
         sol.SetActive(true);
+        
+        //find corresponding graphics objects
+        Transform toddler = transform.parent.Find(race+".0");
+
+        //activate and deactivate objects
+        if(toddler != null){
+            toddler.gameObject.SetActive(true);
+        }
+        else{
+            Debug.Log("toddler found "+(toddler!=null)+"\trace.stage = "+race+"."+stage);
+        }
     }
 
     public void mimir (){
         
         mimiendo = !mimiendo;
         
-        if (!mimiendo) RenderSettings.skybox = skyBoxDia;
+        if (!mimiendo) {
+        
+            animador10.SetBool("Mimiendo", false);
+            animador11.SetBool("Mimiendo", false);
+            animador20.SetBool("Mimiendo", false);
+            animador21.SetBool("Mimiendo", false);
+            animador30.SetBool("Mimiendo", false);
+            animador31.SetBool("Mimiendo", false);
+        
+            RenderSettings.skybox = skyBoxDia;
+        }
 
     }
     public void comer (){
         hambreActual += 20;
+        animador10.SetTrigger("Feliz");
+        animador11.SetTrigger("Feliz");
+        animador20.SetTrigger("Feliz");
+        animador21.SetTrigger("Feliz");
+        animador30.SetTrigger("Feliz");
+        animador31.SetTrigger("Feliz");
         if(hambreActual > maxHambre){
             hambreActual = maxHambre;
         }
         if(mimiendo){
             mimiendo = false;
+            animador10.SetBool("Mimiendo", false);
+            animador11.SetBool("Mimiendo", false);
+            animador20.SetBool("Mimiendo", false);
+            animador21.SetBool("Mimiendo", false);
+            animador30.SetBool("Mimiendo", false);
+            animador31.SetBool("Mimiendo", false);
             RenderSettings.skybox = skyBoxDia;
         }
     }
     public void cepillar(){
+        animador10.SetTrigger("Feliz");
+        animador11.SetTrigger("Feliz");
+        animador20.SetTrigger("Feliz");
+        animador21.SetTrigger("Feliz");
+        animador30.SetTrigger("Feliz");
+        animador31.SetTrigger("Feliz");
         felicidadActual += 20;
         if(felicidadActual > maxFelicidad){
             felicidadActual = maxFelicidad;
         }
         if(mimiendo){
             RenderSettings.skybox = skyBoxDia;
+            animador10.SetBool("Mimiendo", false);
+            animador11.SetBool("Mimiendo", false);
+            animador20.SetBool("Mimiendo", false);
+            animador21.SetBool("Mimiendo", false);
+            animador30.SetBool("Mimiendo", false);
+            animador31.SetBool("Mimiendo", false);
             mimiendo = false;
         }
     }
@@ -64,6 +117,12 @@ public class tamamon : MonoBehaviour
     {
         if(mimiendo){
             RenderSettings.skybox = skyBoxNoche;
+            animador10.SetBool("Mimiendo", true);
+            animador11.SetBool("Mimiendo", true);
+            animador20.SetBool("Mimiendo", true);
+            animador21.SetBool("Mimiendo", true);
+            animador30.SetBool("Mimiendo", true);
+            animador31.SetBool("Mimiendo", true);
             energiaActual += Time.deltaTime;
             energiaActual += Time.deltaTime*2;
             if(energiaActual > maxEnergia){
@@ -91,10 +150,8 @@ public class tamamon : MonoBehaviour
         if(needsDevolve){
             needsDevolve = false;
             //find corresponding graphics objects
-            Transform toddler = transform.Find(race+".0");
-            Transform adult = transform.Find(race+".1");
-
-            stage++;
+            Transform toddler = transform.parent.Find(race+".0");
+            Transform adult = transform.parent.Find(race+".1");
 
             //activate and deactivate objects
             if(adult != null && toddler != null){
@@ -123,8 +180,10 @@ public class tamamon : MonoBehaviour
 
     void Evolve(){
         //find corresponding graphics objects
-        Transform toddler = transform.Find(race+".0");
-        Transform adult = transform.Find(race+".1");
+        objExplosion.SetActive(true);
+        
+        Transform toddler = transform.parent.Find(race+".0");
+        Transform adult = transform.parent.Find(race+".1");
 
         stage++;
 
@@ -136,6 +195,7 @@ public class tamamon : MonoBehaviour
         else{
             Debug.Log("adult found "+(adult != null)+"\ttoddler found "+(toddler!=null)+"\trace.stage = "+race+"."+stage);
         }
+        objExplosion.SetActive(false);
         Canva canva = GameObject.Find("Canvas").GetComponent<Canva>();
         if(canva != null){
             canva.AllowFight();

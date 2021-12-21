@@ -13,7 +13,12 @@ public class WanderAI : MonoBehaviour
     private bool rotandoDer = false;
     private bool rotandoIzq = false;
     private bool caminando = false;
-    public Animator animador;
+    public Animator animador10;
+    public Animator animador11;
+    public Animator animador20;
+    public Animator animador21;
+    public Animator animador30;
+    public Animator animador31;
 
     private tamamon tama;
 
@@ -73,10 +78,20 @@ public class WanderAI : MonoBehaviour
         moviendo = true;
         yield return new WaitForSeconds(esperaCamina);
         caminando = true;
-        animador.SetBool("Caminando", true);
+        animador10.SetBool("Caminando", true);
+        animador11.SetBool("Caminando", true);
+        animador20.SetBool("Caminando", true);
+        animador21.SetBool("Caminando", true);
+        animador30.SetBool("Caminando", true);
+        animador31.SetBool("Caminando", true);
         yield return new WaitForSeconds(tiempoCamina);
         caminando = false;
-        animador.SetBool("Caminando", false);
+        animador10.SetBool("Caminando", false);
+        animador11.SetBool("Caminando", false);
+        animador20.SetBool("Caminando", false);
+        animador21.SetBool("Caminando", false);
+        animador30.SetBool("Caminando", false);
+        animador31.SetBool("Caminando", false);
         yield return new WaitForSeconds(esperaRot);
         
         if (rotarIzqDer == 1){
