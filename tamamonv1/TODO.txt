@@ -9,26 +9,26 @@ Escena principal
 		[] Reaccionar cuando come
 		[] Reaccionar cuando duerme
 	[] Agregar efectos de sonido
-	[] Agregar música
-	[] Aplicar texture mapping a todo
-	[] Chequear físicas (colisiones, gravedad, etc)
+	[x] Agregar música
+	[x] Aplicar texture mapping a todo
+	[x] Chequear físicas (colisiones, gravedad, etc)
         [] Sistema inventario
                 [] Inventario
                 [] Comida
                 [] Adornos
 	[x] Cambiar barritas
-	[] Cambiar cámara a sólo mover con mouse haciendo click
+	[x] Cambiar cámara a sólo mover con mouse haciendo click
 
 Escena PVP
-	[] Programar sistema de pelea (sumar stats por dados)
+	[x] Programar sistema de pelea (sumar stats por dados)
 	[] Programar animaciones (Idle y pelea)
 	[] Programar vuelta a fase moco si pierde y si tiene mala suerte
 	[] Agregar efectos de sonido
-	[] Agregar música
-	[] Aplicar texture mapping a todo
+	[x] Agregar música
+	[x] Aplicar texture mapping a todo
 
 
 BUGS
-	[] A veces la cámara sale de su rango, normalmente pasa al mover el mouse saliendo de la pantalla al tener dos pantallas
+	[x] A veces la cámara sale de su rango, normalmente pasa al mover el mouse saliendo de la pantalla al tener dos pantallas
 	[] Al cambiar de escena de vuelta a la principal, la luz se pone rara
 

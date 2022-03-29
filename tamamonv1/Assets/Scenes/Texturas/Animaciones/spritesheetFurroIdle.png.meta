@@ -105,6 +105,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -760,6 +761,34 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      spritesheetFurroIdle_15: -8546656723234309457
+      spritesheetFurroIdle_22: -1222090037261901359
+      spritesheetFurroIdle_9: -2980789997538306266
+      spritesheetFurroIdle_14: 3108559237219979341
+      spritesheetFurroIdle_5: 1008616131451960752
+      spritesheetFurroIdle_21: -6169599930605535036
+      spritesheetFurroIdle_6: -4103800789453159632
+      spritesheetFurroIdle_23: -769559540288065940
+      spritesheetFurroIdle_12: -8569894793360394606
+      spritesheetFurroIdle_7: 5505884762831659454
+      spritesheetFurroIdle_18: -2237376784227901515
+      spritesheetFurroIdle_13: 2697560032026512713
+      spritesheetFurroIdle_1: -7978785019279185114
+      spritesheetFurroIdle_11: -4223083078410826054
+      spritesheetFurroIdle_16: -7597842875335709500
+      spritesheetFurroIdle_20: -7962814901545272459
+      spritesheetFurroIdle_25: -8983089812035455887
+      spritesheetFurroIdle_24: 3372365292781157972
+      spritesheetFurroIdle_19: 3026016964857515017
+      spritesheetFurroIdle_0: -4584388766104801989
+      spritesheetFurroIdle_8: -8774223766269669115
+      spritesheetFurroIdle_17: -5007110576496711556
+      spritesheetFurroIdle_2: -2454879318946638498
+      spritesheetFurroIdle_3: 3546284053089833241
+      spritesheetFurroIdle_10: -1301889309991323361
+      spritesheetFurroIdle_4: -9074204759943304602
+      spritesheetFurroIdle_26: -5363770391333140206
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

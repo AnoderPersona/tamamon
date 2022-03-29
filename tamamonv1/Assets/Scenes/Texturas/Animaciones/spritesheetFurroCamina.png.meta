@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -328,6 +329,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      spritesheetFurroCamina_7: 5537428001617022240
+      spritesheetFurroCamina_0: -2580857091006892994
+      spritesheetFurroCamina_4: -6713129397147567592
+      spritesheetFurroCamina_6: 4378317248279425893
+      spritesheetFurroCamina_1: -3084310453042138213
+      spritesheetFurroCamina_2: -6877945673814988452
+      spritesheetFurroCamina_5: 7115674660126710646
+      spritesheetFurroCamina_8: 6117065522083689954
+      spritesheetFurroCamina_3: -9051020446880731040
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
